@@ -65,7 +65,6 @@ a.home{
     position: relative;
     
 }
-
 .banner-text{
     position: absolute;
     text-align: center;
@@ -107,6 +106,7 @@ a.home{
     align-items: flex-start;
     gap: 24px;
 }
+
 .findbtn{
     color: #FFF;
     background-color: #FF5400;
@@ -125,6 +125,11 @@ a.home{
     margin: 0 auto;
     display: flex;
 }
+.Destination{
+    max-width: 1220px;
+    background-color: rgb(250, 242, 242);
+    margin: 0 auto;
+}
 .center-paragraph{
     align-content: center;
 }
@@ -139,7 +144,7 @@ a.home{
 }
 .btn{
     position: relative;
-    left:35%;
+    left:40%;
     border:#FF5400 20px solid;
     border-radius: 5px;
     align-content: center;    background-color: #FF5400;
@@ -149,6 +154,22 @@ a.home{
     font-style: normal;
     font-weight: 800;
 
+}
+.first{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: space-between;
+}
+.second{
+    display: grid;
+    grid-template-columns:400px auto 250px;
+    justify-content: space-between;
+}
+.third{
+    display: grid;
+    column-gap: 120px;
+    grid-template-columns: 600px 600px;  
+    justify-content: space-between;
 }
 .input{
     max-width: 1220px;
