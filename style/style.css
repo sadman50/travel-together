@@ -138,17 +138,16 @@ a.home{
     line-height: normal;
 }
 .btn{
-    max-width: 1220px;
+    position: relative;
+    left:35%;
     border:#FF5400 20px solid;
     border-radius: 5px;
-    background-color: #FF5400;
+    align-content: center;    background-color: #FF5400;
     color: #FFF;
-    text-align: center;
     font-family: Mulish;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
 
 }
 .input{
@@ -161,9 +160,13 @@ a.home{
     position: relative;
     align-items: center;
     border: #FF5400 1px solid;
-    width: 50%;
+    width: 40%;
     border-radius: 15px;
     background-color: white;
+}
+.newsletter1{
+    text-align: center;
+    padding: 70px;    
 }
 .newsletter1>p{
     color: #131318;
@@ -172,6 +175,43 @@ font-size: 24px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+}
+.sectionchoose{
+    max-width: 1220px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:50% 50%;
+    justify-content:space-around;
+}
+.choose-us{
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    text-align: left;
+}
+.hotel{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.choose-uss{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+    text-align: left;
+}
+
+#choose-usss{
+    position:relative;
+    left:40%;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    text-align: left;
 }
 
 .subscribe{
@@ -207,7 +247,7 @@ line-height: normal;
     line-height: 26px; /* 162.5% */
 }
 .picoff70{
-    background-image: url(/Images/Rectangle\ 8\ \(1\).png);
+    /* background-image: url(/Images/Rectangle\ 8\ \(1\).png); */
     width: 50%;
     height: 350px;
 }
@@ -220,8 +260,8 @@ line-height: normal;
     border-radius: 5px;
     transform: rotate(-19.628deg);
     background-color: #FF5400;
-    left: 300px;
-    top: 220px;
+    left: 340px;
+    top: -150px;
 }
 .off70>p{
     color: #FFF;
@@ -258,13 +298,17 @@ line-height: normal;
 footer{
     max-width: 1220px;
     text-align: center;
+    position: relative;
     /* border:2px solid #0A438B; */
     background-color: rgb(250, 242, 242);
     margin: 0 auto;
     height: 502px;
+    position: relative;
 }
 .footer-section{
    align-content:center;
+   position: relative;
+   top: 40%;
 }
 .line{
     max-width: 1220px;
@@ -272,9 +316,12 @@ footer{
     margin: 0 auto;
 }
 .footer-logo{
+    position: relative;
+    left: 40%;
     display: flex;
     align-items: center;
     width: 50%;
+
 }
 .footer-logo p{
     color: #131318;
