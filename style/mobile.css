@@ -1,0 +1,33 @@
+/* for mobile device 600px */
+.hide{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .header-section{
+        max-width: 600px;
+        background-color: rgb(250, 242, 242);
+        margin: 0 auto;
+        display: flex;
+    }
+    .nav-logo{
+        display: flex;
+        align-items: center;
+        width:50%
+    }
+    .items-container{
+        display: none;
+    }
+    .menu-icon{
+        position: relative;
+        /* border: 2px solid red; */
+        background-image: url(/Images/hamburger-button-computer-icons-menu-bar-line.jpg);
+        background-size: 98px;
+        width: 100px;
+        left: 150px;
+
+    }
+}
