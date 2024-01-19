@@ -12,6 +12,7 @@
         background-color: rgb(250, 242, 242);
         margin: 0 auto;
         display: flex;
+        position: relative;
     }
     .nav-logo{
         display: flex;
@@ -23,11 +24,15 @@
     }
     .menu-icon{
         position: relative;
-        /* border: 2px solid red; */
-        background-image: url(/Images/hamburger-button-computer-icons-menu-bar-line.jpg);
-        background-size: 98px;
-        width: 100px;
-        left: 150px;
-
+        border: 20px red solid;
+        background-color: red;
+    }
+    .banner-img{
+        max-width:600px;
+        margin: 0 auto;
+        background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+        background-repeat: no-repeat;
+        height: 500px;
+        position: relative;
     }
 }
