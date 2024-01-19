@@ -93,6 +93,14 @@
     .video-section{
         flex-direction: column;
     }
+    .fish-world{
+        max-width: 600px;
+        align-items: center;
+    }
+    .radiant-img{
+        display: flex;
+        flex-direction: column;
+    }
     .simple-button{
         height: 50px;
     }
