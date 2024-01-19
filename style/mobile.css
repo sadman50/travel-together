@@ -7,32 +7,121 @@
         margin: 0;
         padding: 0;
     }
-    .header-section{
-        max-width: 600px;
-        background-color: rgb(250, 242, 242);
-        margin: 0 auto;
-        display: flex;
-        position: relative;
+    .menu-icon{
+        display:inline;        
     }
-    .nav-logo{
-        display: flex;
-        align-items: center;
-        width:50%
+    .menu-icon img{
+        height: 60px;
+        position: relative;
+        text-align: right;
+        left: 180px;
+
     }
     .items-container{
         display: none;
     }
-    .menu-icon{
-        position: relative;
-        border: 20px red solid;
-        background-color: red;
+    .banner-img img{
+        width: 600px;
+        height: 100%;  
     }
-    .banner-img{
-        max-width:600px;
+    .banner-text{
+        position: absolute;
+        text-align: center;
+        top: 2px;
+        left: 20%;
+    }
+    .select{
+        position: absolute;
+        background-color: rgb(161, 160, 160);
+        border: #000000 1px solid;
+        border-radius: 3px;
+        top: 60%;
+        left: 30%;
+        height: 160px;
+        width: 200px;
+    }
+    .select,select,button{
+        display: flex;
+        height: 100px;
+        flex-direction: column;
+    }   
+    .tourplace-section{
+        max-width: 600px;
+        background-color: rgb(250, 242, 242);
         margin: 0 auto;
-        background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
-        background-repeat: no-repeat;
-        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .tourplace-section .simple-button{
+        height: 40px;
+    }
+    .Destination{
+        grid-template-columns: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .Destination .first{
+        display: block;
+    }
+    .Destination .first img{
+        width: 600px;
+    }
+    .Destination .second{
+        display:block;
+        width: 600px;
+    }
+    .Destination .second img{
+        width: 600px;
+    }
+    .Destination .third{
+        display: block;
+    }
+    .Destination .third img{
+        width: 600px;
+    }
+    .sectionchoose{
         position: relative;
+        display: block;
+        align-content: center;
+    }
+    #choose-usss{
+        left: 1%;
+    }
+    .btn{
+        height: 50px;
+    }
+    .video-section{
+        flex-direction: column;
+    }
+    .simple-button{
+        height: 50px;
+    }
+    .input{
+        flex-direction: column;
+    }
+    .newsletter{
+        width: 100%;
+        /* left: 200px; */
+    }
+    .subscribe{
+        position: relative;
+        left: 150px;
+        color: white;
+        border:none;
+        border-radius: 3px;
+        background-color: #FF5400;
+        text-align: center;
+    }
+    .picoff70 .off70{
+        position: relative;
+        display: block;
+    }
+    .picoff70 .off70 img{
+        width: 60px;
+    }
+    footer{
+        display: block;
+        width: 675px;
+        height: 200px;
     }
 }

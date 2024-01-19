@@ -62,7 +62,7 @@ a.home{
 .banner-img{
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    /* background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png); */
     background-repeat: no-repeat;
     height: 500px;
     position: relative;
@@ -285,7 +285,11 @@ background: rgba(41, 206, 246, 0.05);
     transform: rotate(-19.628deg);
     background-color: #FF5400;
     left: 340px;
-    top: -150px;
+    top: -190px;
+}
+.picoff70 .off70 img{
+    width: 672px;
+    height: 442px;
 }
 .off70>p{
     color: #FFF;
